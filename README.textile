@@ -2,7 +2,7 @@ h1. Fonolo Ruby Library
 
 h2. Description
 
-Ruby library for consuming the Fonolo (http://fonolo.com) web services. Fonolo allows deep dialing of corporate IVR menus to bypass the machine and get directly to humans.
+Ruby library for consuming the <a href="http://fonolo.com">Fonolo</a> web services. Fonolo allows deep dialing of corporate IVR menus to bypass the machine and get directly to humans.
 
 h2. Features
 
@@ -17,7 +17,7 @@ The library exposes all of the methods available in the Fonolo API v1.1 and retu
 * call_status
 * call_canel
 
-For more information please refer to the <a href="http://fonolo.com/developer">Fonolo developer website</a>.
+For more information please refer to the <a href="http://fonolo.com/developer">Fonolo developer website</a>. In order to use this library you will need to sign-up for a username/password and a developer key from the Fonolo website.
 
 h2. Example
     <pre>
