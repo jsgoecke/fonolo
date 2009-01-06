@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jason Goecke"]
   s.email = ["jason@goecke.net"]
  
-  s.files = ["lib/fonolo.rb", "LICENSE", "README.rdoc", "fonolo.gemspec"]
+  s.files = ["lib/fonolo.rb", "LICENSE", "README.textile", "fonolo.gemspec"]
   s.require_paths = ["lib"]
  
   s.add_dependency("json_pure", ">=", "1.1.2")
