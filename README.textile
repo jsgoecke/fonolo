@@ -47,4 +47,4 @@ h2. Dependencies
 
 h2. Installaion
 
-sudo gem install jsgoecke-fonolo --source=http://gems.github.com/
+	sudo gem install jsgoecke-fonolo --source=http://gems.github.com/
