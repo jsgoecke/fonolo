@@ -22,22 +22,31 @@ For more information please refer to the Fonolo developer webiste @ http://fonol
 h2. Example
 
 	require 'fonolo'
+	#
 	#Initialize the Fonolo object
 	fonolo = Fonolo.new("uname", "passwd", "key")
+	#
 	#Check that your username and password are registered as a valid member
 	fonolo.check_member
+	#
 	#Check that the phone number you plan to use is registered with your user
 	fonolo.check_member_number("4155551212")
+	#
 	#Search the company directory 
 	fonolo.company_search("hotels")
+	#
 	#List all of the companies in the Fonolo database from a certain date
 	fonolo.company_list(5, 0, "2008-01-01")
+	#
 	#Obtain the company details retrieved from a search or list with company_id
 	fonolo.company_details("company_id")
+	#
 	#Initiate a 'deep dial' to a particular company using the company_id
 	response = fonolo.call_start("company_id", "415-555-1212")
+	#
 	#Obtain the call status based on the session id from a call_start request
 	fonolo.call_status(response["result"]["data"]["session_id"])
+	#
 	#Disconnect a call with the session id from a call_start request
 	fonolo.call_cancel(response["result"]["data"]["session_id"])
 
